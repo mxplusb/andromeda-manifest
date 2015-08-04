@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch=".." name="openstack" review="https://review.openstack.org/" />
-    <default remote="openstack" revision="master" sync-j="2" />
+    <default remote="openstack" revision="master" sync-j="4" />
     <project name="openstack-dev/devstack" path="devstack" />
     <project name="openstack/swift" path="swift"/>
     <project name="openstack/nova" path="nova"/>
