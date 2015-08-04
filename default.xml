@@ -2,6 +2,7 @@
 <manifest>
     <remote fetch=".." name="openstack" review="https://review.openstack.org/" />
     <default remote="openstack" revision="master" sync-j="2" />
+    <project name="openstack-dev/devstack" path="devstack" />
     <project name="openstack/swift" path="swift"/>
     <project name="openstack/nova" path="nova"/>
     <project name="openstack/glance" path="glance"/>
